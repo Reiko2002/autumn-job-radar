@@ -5,7 +5,7 @@
 - Vite + React + TypeScript：单页 Demo 成本低、启动快、适合静态部署。
 - 原生 CSS：避免组件库和 Tailwind 配置成本，同时保留设计令牌。
 - StaticJobRepository：从 GitHub Pages 子路径读取 `public/data/jobs.json`，失败时只读回退最近有效缓存。
-- Python Collector：CSV、Greenhouse、Lever → 标准化 → 去重 → 状态合并 → 质量闸门 → 原子 JSON。
+- Python Collector：飞书 TSV → 国内企业过滤 → CSV → 标准化 → 去重 → 状态合并 → 质量闸门 → 原子 JSON。
 - localStorage：只保存偏好、收藏与投递状态，使用稳定岗位 ID 关联。
 - 纯函数匹配引擎：基于方向、技能、行业、地点、校招条件、新鲜度和目标公司生成可解释得分。
 
@@ -14,7 +14,7 @@
 ```text
 src/
 ├── components/     页面与通用组件
-├── data/           虚构演示岗位和默认偏好
+├── data/           岗位 CSV 与 Demo 回退数据
 ├── lib/            匹配、筛选、存储
 ├── types/          领域类型
 ├── App.tsx         页面状态与路由壳
@@ -34,4 +34,4 @@ URL 查询参数保存当前页面；本地 Repository 使用带版本号的键�
 
 ## 自动化
 
-`.github/workflows/sync-and-deploy.yml` 每日 01:20 UTC 运行 Python 测试与同步，质量通过后提交 JSON，再完成前端四项质量检查和 Pages 部署。所有公开 API 测试均使用本地 fixture/纯函数，不依赖实时网站。
+`.github/workflows/sync-and-deploy.yml` 每日 01:20 UTC 运行 Python 测试与同步，质量通过后提交 JSON，再完成前端四项质量检查和 Pages 部署。v2 的飞书内容通过人工导出更新，自动任务只处理仓库内已确认的 CSV。

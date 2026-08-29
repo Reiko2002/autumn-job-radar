@@ -20,9 +20,19 @@ def test_deduplicate_keeps_different_companies():
     assert len(deduplicate([a,a,b]))==2
 def test_status_machine_and_failed_source():
     now=datetime.now(timezone.utc); old=normalize_raw_job(raw(),CFG,now)
-    once=merge([old],[],{'test'},now)[0]; assert once['status']=='suspected_closed'
-    twice=merge([once],[],{'test'},now)[0]; assert twice['status']=='closed'
-    unchanged=merge([old],[],set(),now)[0]; assert unchanged['missedSyncCount']==0
+    once=merge([old],[],{'test'},{'test'},now)[0]; assert once['status']=='suspected_closed'
+    twice=merge([once],[],{'test'},{'test'},now)[0]; assert twice['status']=='closed'
+    unchanged=merge([old],[],set(),{'test'},now)[0]; assert unchanged['missedSyncCount']==0
+
+def test_merge_drops_removed_source():
+    now=datetime.now(timezone.utc); old=normalize_raw_job(raw(),CFG,now)
+    assert merge([old],[],set(),set(),now)==[]
+
+def test_manual_metadata_is_normalized():
+    item=raw(); item.raw_data={'job_type':'校招','graduate_years':'2026|2027','industry_tags':'国内企业','skill_tags':'产品|AI'}
+    job=normalize_raw_job(item,CFG)
+    assert job['jobType']=='campus' and job['graduateYears']==[2026,2027]
+    assert '国内企业' in job['industryTags'] and 'AI' in job['skillTags']
 def test_quality_gate_rejects_empty_and_all_failed():
     previous={'jobs':[normalize_raw_job(raw(),CFG)]}; payload={'stats':{'sourcesSucceeded':0},'jobs':[]}
     errors=run_quality_gate(previous,payload); assert 'all enabled sources failed' in errors and 'new output is empty' in errors

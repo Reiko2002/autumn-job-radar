@@ -19,7 +19,7 @@ export function Shell({ page, setPage, children, savedCount }: { page: Page; set
       </nav>
       <div className="sidebar-footer">
         <div className={`demo-chip ${isDemo ? '' : 'live'}`}><i /> {isDemo ? 'DEMO MODE' : 'REAL DATA'}</div>
-        <p>{isDemo ? '虚构演示数据 · 不代表真实招聘' : '岗位来自公开招聘源 · 状态保存在本地'}</p>
+        <p>{isDemo ? '虚构演示数据 · 不代表真实招聘' : '国内企业真实岗位 · 状态保存在本地'}</p>
         <div className="profile-mini"><span>MX</span><div><strong>马同学</strong><small>2027 届毕业生</small></div><button aria-label="通知"><Bell size={17} /></button></div>
       </div>
     </aside>

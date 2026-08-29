@@ -23,11 +23,16 @@ def match_labels(text, mapping):
 def normalize_raw_job(raw: RawJob, configs: dict, now: datetime | None=None):
     now=now or datetime.now(timezone.utc); desc=clean_text(raw.description_text or raw.description_html); title=raw.title.strip(); company=raw.company.strip(); location=raw.location_text or ''
     company_n=normalize_name(company); title_n=normalize_name(title); cities=match_labels(location,configs['locations']); roles=match_labels(title,configs['roles']) or match_labels(title+' '+desc[:2000],configs['roles']); skills=match_labels(desc,configs['skills']); industries=match_labels(title+' '+desc,configs['industries'])
+    supplied_skills=[item.strip() for item in (raw.raw_data.get('skill_tags') or '').split('|') if item.strip()]
+    supplied_industries=[item.strip() for item in (raw.raw_data.get('industry_tags') or '').split('|') if item.strip()]
+    skills=list(dict.fromkeys(skills+supplied_skills)); industries=list(dict.fromkeys(industries+supplied_industries))
     source_url=canonicalize_url(raw.source_url); apply_url=canonicalize_url(raw.apply_url or raw.source_url)
     years_in_title=re.findall(r'20(?:2[5-9]|3[0-5])',title)
     years_in_context=re.findall(r'(?:class of|graduating in)\s*(20(?:2[5-9]|3[0-5]))|(20(?:2[5-9]|3[0-5]))\s*届',desc.lower())
-    years=sorted({int(y) for y in years_in_title} | {int(y) for pair in years_in_context for y in pair if y})
-    title_lower=title.lower(); job_type='intern' if re.search(r'\b(intern|internship)\b|实习',title_lower) else 'campus' if (re.search(r'\b(new grad|graduate program|university graduate)\b|校招|应届',title_lower) or years) else 'experienced'
+    supplied_years=re.findall(r'20(?:2[5-9]|3[0-5])',raw.raw_data.get('graduate_years') or '')
+    years=sorted({int(y) for y in years_in_title+supplied_years} | {int(y) for pair in years_in_context for y in pair if y})
+    supplied_type=(raw.raw_data.get('job_type') or '').lower()
+    title_lower=title.lower(); job_type='intern' if supplied_type in ('实习','intern') or re.search(r'\b(intern|internship)\b|实习',title_lower) else 'campus' if supplied_type in ('校招','campus') or (re.search(r'\b(new grad|graduate program|university graduate)\b|校招|应届',title_lower) or years) else 'experienced'
     stable=f"{raw.source_key}|{raw.external_id}" if raw.external_id else f"{company_n}|{title_n}|{'|'.join(sorted(cities))}|{source_url}"
     job_id=hashlib.sha256(stable.encode()).hexdigest()[:16]
     content=hashlib.sha256('|'.join([company,title,location,desc,str(raw.published_at),str(raw.deadline_at),apply_url]).encode()).hexdigest()
