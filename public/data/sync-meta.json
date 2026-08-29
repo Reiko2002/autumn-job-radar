@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-08-29T04:58:38.417417+00:00",
-  "finishedAt": "2026-08-29T04:58:56.690416+00:00",
+  "startedAt": "2026-08-29T05:02:18.966765+00:00",
+  "finishedAt": "2026-08-29T05:02:31.620260+00:00",
   "status": "success",
-  "durationMs": 18272,
+  "durationMs": 12653,
   "summary": {
     "total": 662,
     "active": 662,
@@ -24,14 +24,14 @@
       "key": "anthropic-greenhouse",
       "status": "success",
       "fetched": 571,
-      "durationMs": 1840,
+      "durationMs": 436,
       "error": null
     },
     {
       "key": "palantir-lever",
       "status": "success",
       "fetched": 307,
-      "durationMs": 14450,
+      "durationMs": 1489,
       "error": null
     }
   ],
