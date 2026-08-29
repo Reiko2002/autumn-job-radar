@@ -4,7 +4,9 @@
 
 - Vite + React + TypeScript：单页 Demo 成本低、启动快、适合静态部署。
 - 原生 CSS：避免组件库和 Tailwind 配置成本，同时保留设计令牌。
-- localStorage Repository：在浏览器保存偏好、收藏与投递状态。
+- StaticJobRepository：从 GitHub Pages 子路径读取 `public/data/jobs.json`，失败时只读回退最近有效缓存。
+- Python Collector：CSV、Greenhouse、Lever → 标准化 → 去重 → 状态合并 → 质量闸门 → 原子 JSON。
+- localStorage：只保存偏好、收藏与投递状态，使用稳定岗位 ID 关联。
 - 纯函数匹配引擎：基于方向、技能、行业、地点、校招条件、新鲜度和目标公司生成可解释得分。
 
 ## 目录
@@ -30,6 +32,6 @@ src/
 
 URL 查询参数保存当前页面；本地 Repository 使用带版本号的键保存 Profile 与 UserJobState。损坏数据会回退默认值。所有计算均在本地完成，不发送数据。
 
-## 后续集成点
+## 自动化
 
-保持 `loadState/saveState` 访问边界；生产版可将其替换为 Supabase Repository。采集、去重、定时同步和 CSV 导入属于 v1，不进入本次可交互 v0。
+`.github/workflows/sync-and-deploy.yml` 每日 01:20 UTC 运行 Python 测试与同步，质量通过后提交 JSON，再完成前端四项质量检查和 Pages 部署。所有公开 API 测试均使用本地 fixture/纯函数，不依赖实时网站。

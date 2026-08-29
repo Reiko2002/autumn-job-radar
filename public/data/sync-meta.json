@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-08-29T04:58:38.417417+00:00",
+  "finishedAt": "2026-08-29T04:58:56.690416+00:00",
+  "status": "success",
+  "durationMs": 18272,
+  "summary": {
+    "total": 662,
+    "active": 662,
+    "suspectedClosed": 0,
+    "closed": 0,
+    "sourcesSucceeded": 3,
+    "sourcesFailed": 0
+  },
+  "sources": [
+    {
+      "key": "manual-official-jobs",
+      "status": "success",
+      "fetched": 0,
+      "durationMs": 0,
+      "error": null
+    },
+    {
+      "key": "anthropic-greenhouse",
+      "status": "success",
+      "fetched": 571,
+      "durationMs": 1840,
+      "error": null
+    },
+    {
+      "key": "palantir-lever",
+      "status": "success",
+      "fetched": 307,
+      "durationMs": 14450,
+      "error": null
+    }
+  ],
+  "qualityErrors": []
+}

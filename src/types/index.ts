@@ -10,7 +10,7 @@ export interface Job {
   roleCategory: string
   industryTags: string[]
   location: string
-  jobType: '校招' | '实习'
+  jobType: '校招' | '实习' | '社招' | '类型未注明'
   graduateYears: number[]
   description: string
   responsibilities: string[]
@@ -22,6 +22,47 @@ export interface Job {
   status: JobStatus
   sourceName: string
   accent: string
+  firstSeenAt?: string
+  lastSeenAt?: string
+  sourceUrl?: string
+}
+
+export interface ApiJob {
+  id: string
+  externalId?: string
+  company: string
+  companyNormalized: string
+  title: string
+  titleNormalized: string
+  roleCategory?: string
+  industryTags: string[]
+  cityTags: string[]
+  locationText?: string
+  jobType: 'campus' | 'intern' | 'experienced' | 'unknown'
+  graduateYears: number[]
+  description?: string
+  responsibilities?: string
+  requirements?: string
+  skillTags: string[]
+  publishedAt?: string
+  deadlineAt?: string
+  sourceKey: string
+  sourceName: string
+  sourceType: string
+  sourceUrl: string
+  applyUrl: string
+  status: JobStatus
+  firstSeenAt: string
+  lastSeenAt: string
+  missedSyncCount: number
+  contentHash: string
+}
+
+export interface JobsPayload {
+  schemaVersion: 1
+  generatedAt: string
+  stats: { total: number; active: number; suspectedClosed: number; closed: number; sourcesSucceeded: number; sourcesFailed: number }
+  jobs: ApiJob[]
 }
 
 export interface Profile {

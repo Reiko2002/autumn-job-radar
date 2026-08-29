@@ -20,7 +20,7 @@ export function JobCard({ job, match, state, selected, onSelect, onSave, onPipel
     <p className="job-summary">{job.description}</p>
     <div className="match-note"><span>✦</span>{match.reasons[0] ?? '可作为拓展机会进一步了解'}</div>
     <footer>
-      <div className="job-meta"><span>{relativeDate(job.publishedAt)}</span>{deadlineDays !== undefined && <span className="deadline">{deadlineDays} 天后截止</span>}<span>{job.sourceName}</span></div>
+      <div className="job-meta"><span>{job.firstSeenAt && job.publishedAt === job.firstSeenAt ? `首次发现于 ${relativeDate(job.firstSeenAt).replace('发布', '')}` : relativeDate(job.publishedAt)}</span>{deadlineDays !== undefined && <span className="deadline">{deadlineDays} 天后截止</span>}<span>{job.sourceName}</span>{job.status === 'suspected_closed' && <span className="status-warning">疑似下线</span>}</div>
       <div className="card-actions">
         <button className={state?.saved ? 'saved' : ''} aria-label={state?.saved ? '取消收藏' : '收藏岗位'} onClick={(event) => { event.stopPropagation(); onSave() }}><Bookmark size={17} fill={state?.saved ? 'currentColor' : 'none'} /></button>
         <button className="text-button" onClick={(event) => { event.stopPropagation(); onPipeline() }}><BriefcaseBusiness size={16} />{state?.applicationStatus ? '更新进度' : '加入投递'}</button>

@@ -9,10 +9,10 @@ export function JobDetail({ job, match, state, onSave, onStatus, onClose }: { jo
     <div className="detail-company"><div className="company-logo large" style={{ background: job.accent }}>{job.companyShort}</div><div><span>{job.companyName}</span><small>{job.sourceName} · 已验证</small></div></div>
     <h2>{job.title}</h2><p className="detail-meta">{job.location} · {job.jobType} · {job.graduateYears.join('/')} 届</p>
     <div className="detail-actions">
-      <a href={job.applyUrl} target="_blank" rel="noopener noreferrer" className="primary-button">前往演示投递页</a>
+      <a href={job.applyUrl} target="_blank" rel="noopener noreferrer" className="primary-button">前往官方投递页</a>
       <button className={state?.saved ? 'icon-button saved' : 'icon-button'} onClick={onSave} aria-label={state?.saved ? '取消收藏' : '收藏'}><Bookmark size={19} fill={state?.saved ? 'currentColor' : 'none'} /></button>
     </div>
-    <div className="demo-notice">这是虚构演示岗位，不代表真实招聘信息。</div>
+    <div className="demo-notice real">岗位信息来自公开招聘页面，可能随时变化，请以来源页面为准。</div>
     <section className="match-box"><header><span><Sparkles size={17} /> 匹配分析</span><strong>{match.score}<small>/ 100</small></strong></header><div className="score-bar"><i style={{ width: `${match.score}%` }} /></div><h4>为什么推荐你</h4><ul>{match.reasons.map((reason) => <li key={reason}><b>✓</b>{reason}</li>)}</ul>{match.gaps.length > 0 && <><h4>值得补充</h4><div className="gap-tags">{match.gaps.map((gap) => <span key={gap}>+ {gap}</span>)}</div></>}</section>
     <section className="detail-section"><h3>岗位介绍</h3><p>{job.description}</p></section>
     <section className="detail-section"><h3>你将负责</h3><ul>{job.responsibilities.map((item) => <li key={item}>{item}</li>)}</ul></section>

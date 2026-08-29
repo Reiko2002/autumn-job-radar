@@ -1,8 +1,8 @@
-# Status
+# Status · v1
 
 ## 当前目标
 
-交付可本地运行的秋招雷达 v0，打通“发现岗位—解释匹配—收藏—投递状态—偏好重算”闭环。
+在保留 v0 UI 和交互的前提下，接入低成本真实岗位数据管线并每日自动更新。
 
 ## 本次最小改动
 
@@ -16,6 +16,27 @@
 - v0 不承诺真实采集和多用户能力。
 
 ## 进度
+
+- [x] v0 固化为 `v0.1.0` Git tag
+- [x] Static JSON Repository 与加载/错误/缓存状态
+- [x] CSV、Greenhouse、Lever Adapter
+- [x] 标准化、稳定 ID、去重、状态机、质量闸门
+- [x] Anthropic Greenhouse 与 Palantir Lever 真实数据源
+- [x] 662 条真实岗位初次同步
+- [x] v1 完整质量闸门与本地浏览器验收
+
+## v1 验证结果
+
+- 前端 lint：pass
+- TypeScript：pass
+- 前端测试：4/4 pass
+- Python 测试：5/5 pass
+- 生产构建：pass
+- 真实同步：878 条原始岗位 → 662 条去重 active 岗位
+- 数据源：Anthropic Greenhouse、Palantir Lever、人工 CSV，3/3 成功
+- 390px 移动端：无横向溢出
+- 官方投递链接：pass
+- 浏览器控制台错误：0
 
 - [x] PRD、验收标准、视觉方向和技术边界
 - [x] 轻量架构与开发规范

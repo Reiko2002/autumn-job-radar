@@ -10,6 +10,7 @@ const nav: Array<{ page: Page; label: string; icon: typeof Compass }> = [
 ]
 
 export function Shell({ page, setPage, children, savedCount }: { page: Page; setPage: (page: Page) => void; children: ReactNode; savedCount: number }) {
+  const isDemo = import.meta.env.VITE_DEMO_MODE === 'true'
   return <div className="app-shell">
     <aside className="sidebar">
       <button className="brand" onClick={() => setPage('jobs')}><span className="brand-mark"><Radar size={21} /></span><span><strong>秋招雷达</strong><small>JOB RADAR</small></span></button>
@@ -17,8 +18,8 @@ export function Shell({ page, setPage, children, savedCount }: { page: Page; set
         {nav.map((item) => <button key={item.page} className={`nav-item ${page === item.page ? 'active' : ''}`} onClick={() => setPage(item.page)}><item.icon size={19} /><span>{item.label}</span>{item.page === 'saved' && savedCount > 0 && <em>{savedCount}</em>}</button>)}
       </nav>
       <div className="sidebar-footer">
-        <div className="demo-chip"><i /> Demo Mode</div>
-        <p>数据仅保存在你的浏览器</p>
+        <div className={`demo-chip ${isDemo ? '' : 'live'}`}><i /> {isDemo ? 'DEMO MODE' : 'REAL DATA'}</div>
+        <p>{isDemo ? '虚构演示数据 · 不代表真实招聘' : '岗位来自公开招聘源 · 状态保存在本地'}</p>
         <div className="profile-mini"><span>MX</span><div><strong>马同学</strong><small>2027 届毕业生</small></div><button aria-label="通知"><Bell size={17} /></button></div>
       </div>
     </aside>

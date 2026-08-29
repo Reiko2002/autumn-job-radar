@@ -1,0 +1,19 @@
+version: 1
+sources:
+  - key: manual-official-jobs
+    name: 人工维护的企业官网岗位
+    type: manual_csv
+    enabled: true
+    path: data/manual_jobs.csv
+  - key: anthropic-greenhouse
+    name: Anthropic 官方招聘
+    type: greenhouse
+    enabled: true
+    company: Anthropic
+    board_token: anthropic
+  - key: palantir-lever
+    name: Palantir 官方招聘
+    type: lever
+    enabled: true
+    company: Palantir
+    site_slug: palantir

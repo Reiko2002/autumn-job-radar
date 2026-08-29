@@ -1,4 +1,4 @@
-import { defaultProfile, defaultUserJobs } from '../data/demo'
+import { defaultProfile } from '../data/demo'
 import type { Profile, UserJobState } from '../types'
 
 const PROFILE_KEY = 'autumn-radar.profile.v1'
@@ -16,7 +16,7 @@ function read<T>(key: string, fallback: T): T {
 export const storage = {
   loadProfile: () => read<Profile>(PROFILE_KEY, defaultProfile),
   saveProfile: (profile: Profile) => localStorage.setItem(PROFILE_KEY, JSON.stringify(profile)),
-  loadUserJobs: () => read<Record<string, UserJobState>>(USER_JOBS_KEY, defaultUserJobs),
+  loadUserJobs: () => read<Record<string, UserJobState>>(USER_JOBS_KEY, {}),
   saveUserJobs: (jobs: Record<string, UserJobState>) => localStorage.setItem(USER_JOBS_KEY, JSON.stringify(jobs)),
   reset: () => {
     localStorage.removeItem(PROFILE_KEY)
