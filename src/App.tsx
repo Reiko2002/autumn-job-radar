@@ -17,13 +17,12 @@ export default function App() {
   const [jobs, setJobs] = useState<Job[]>([])
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState('')
-  const [syncInfo, setSyncInfo] = useState('')
   const [page, setPage] = useState<Page>('jobs')
   const [profile, setProfile] = useState<Profile>(() => storage.loadProfile())
   const [userJobs, setUserJobs] = useState<Record<string, UserJobState>>(() => storage.loadUserJobs())
   const [filters, setFilters] = useState(initialFilters)
   const [selected, setSelected] = useState<Job | undefined>()
-  const applyLoadedJobs = (result: LoadedJobs) => { setJobs(result.jobs); setSyncInfo(`${result.fromCache ? '缓存数据 · ' : ''}更新于 ${new Date(result.generatedAt).toLocaleString('zh-CN')}`) }
+  const applyLoadedJobs = (result: LoadedJobs) => { setJobs(result.jobs) }
   const loadJobs = () => { setLoading(true); setLoadError(''); createJobRepository().getJobs().then(applyLoadedJobs).catch((error: unknown) => setLoadError(error instanceof Error ? error.message : '岗位数据加载失败')).finally(() => setLoading(false)) }
   useEffect(() => {
     let active = true
@@ -43,7 +42,7 @@ export default function App() {
   return <Shell page={page} setPage={navigate} savedCount={savedIds.size}>
     {loading && <div className="data-state"><div className="loader" /><h2>正在加载真实岗位</h2><p>从最新同步数据中整理机会…</p></div>}
     {!loading && loadError && <div className="data-state error"><h2>暂时无法加载岗位</h2><p>{loadError}</p><button className="primary-button" onClick={loadJobs}>重新加载</button></div>}
-    {!loading && !loadError && (page === 'jobs' || page === 'saved') && <><div className="sync-banner">● {syncInfo} · 国内企业岗位 · 信息以企业官方页面为准</div><JobsPage title={page === 'jobs' ? '找到真正适合你的机会' : '我的收藏'} subtitle={page === 'jobs' ? '聚合国内企业校招机会，每个推荐都有可解释理由。' : '把值得认真研究的岗位放在同一个地方。'} jobs={visibleJobs} allCount={filterJobs(jobs, matches, profile, initialFilters).length} matches={matches} filters={filters} setFilters={setFilters} userJobs={userJobs} selected={selected} setSelected={setSelected} onSave={onSave} onStatus={onStatus} onRemove={onRemove} onPreferences={() => navigate('preferences')} savedView={page === 'saved'} /></>}
+    {!loading && !loadError && (page === 'jobs' || page === 'saved') && <JobsPage title={page === 'jobs' ? '找到真正适合你的机会' : '我的收藏'} subtitle={page === 'jobs' ? '聚合国内企业校招机会，每个推荐都有可解释理由。' : '把值得认真研究的岗位放在同一个地方。'} jobs={visibleJobs} allCount={filterJobs(jobs, matches, profile, initialFilters).length} matches={matches} filters={filters} setFilters={setFilters} userJobs={userJobs} selected={selected} setSelected={setSelected} onSave={onSave} onStatus={onStatus} onRemove={onRemove} onPreferences={() => navigate('preferences')} savedView={page === 'saved'} />}
     {!loading && !loadError && page === 'pipeline' && <><PipelinePage jobs={jobs} matches={matches} userJobs={userJobs} onStatus={onStatus} onRemove={onRemove} onSelect={setSelected} />{selected && <div className="detail-overlay"><JobDetail job={selected} match={matches[selected.id]} state={userJobs[selected.id]} onSave={() => onSave(selected.id)} onStatus={(status) => onStatus(selected.id, status)} onRemove={() => onRemove(selected.id)} onClose={() => setSelected(undefined)} /></div>}</>}
     {page === 'preferences' && <PreferencesPage profile={profile} onSave={saveProfile} onReset={reset} />}
   </Shell>
