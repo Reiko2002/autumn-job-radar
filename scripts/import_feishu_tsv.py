@@ -51,7 +51,7 @@ def convert(input_path: Path, output_path: Path) -> tuple[int, int]:
     with input_path.open(encoding="utf-8", newline="") as source:
         for raw in csv.reader(source, delimiter="\t"):
             raw += [""] * (9 - len(raw))
-            company, homepage, title, campaign, progress, job_url, note, company_type, *_ = [
+            company, homepage, title, campaign, _progress, job_url, note, company_type, *_ = [
                 value.strip() for value in raw
             ]
             company_key = company.lower().replace(" ", "")
@@ -67,8 +67,8 @@ def convert(input_path: Path, output_path: Path) -> tuple[int, int]:
 
             identity = f"{company}|{title}|{source_url}"
             external_id = "feishu-" + hashlib.sha1(identity.encode()).hexdigest()[:12]
+            # progress 是维护者的私人求职跟进信息，绝不进入公开岗位数据。
             details = [f"招聘批次：{campaign}" if campaign else ""]
-            details.append(f"个人跟进状态：{progress}" if progress else "")
             details.append(f"备注：{note}" if note else "")
             rows.append(
                 {

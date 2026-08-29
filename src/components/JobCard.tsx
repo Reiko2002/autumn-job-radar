@@ -8,7 +8,7 @@ const relativeDate = (date: string) => {
   return days === 0 ? '今天发布' : `${days} 天前发布`
 }
 
-export function JobCard({ job, match, state, selected, onSelect, onSave, onPipeline }: { job: Job; match: MatchResult; state?: UserJobState; selected: boolean; onSelect: () => void; onSave: () => void; onPipeline: () => void }) {
+export function JobCard({ job, match, state, selected, onSelect, onSave, onPipeline, onRemove }: { job: Job; match: MatchResult; state?: UserJobState; selected: boolean; onSelect: () => void; onSave: () => void; onPipeline: () => void; onRemove: () => void }) {
   const deadlineDays = job.deadlineAt ? Math.max(0, Math.ceil((+new Date(job.deadlineAt) - +renderDate) / 86_400_000)) : undefined
   return <article className={`job-card ${selected ? 'selected' : ''}`} onClick={onSelect}>
     <div className="job-card-head">
@@ -20,10 +20,10 @@ export function JobCard({ job, match, state, selected, onSelect, onSave, onPipel
     <p className="job-summary">{job.description}</p>
     <div className="match-note"><span>✦</span>{match.reasons[0] ?? '可作为拓展机会进一步了解'}</div>
     <footer>
-      <div className="job-meta"><span>{job.firstSeenAt && job.publishedAt === job.firstSeenAt ? `首次发现于 ${relativeDate(job.firstSeenAt).replace('发布', '')}` : relativeDate(job.publishedAt)}</span>{deadlineDays !== undefined && <span className="deadline">{deadlineDays} 天后截止</span>}<span>{job.sourceName}</span>{job.status === 'suspected_closed' && <span className="status-warning">疑似下线</span>}</div>
+      <div className="job-meta"><span>{job.firstSeenAt && job.publishedAt === job.firstSeenAt ? `首次发现于 ${relativeDate(job.firstSeenAt).replace('发布', '')}` : relativeDate(job.publishedAt)}</span>{deadlineDays !== undefined && <span className="deadline">{deadlineDays} 天后截止</span>}<span>企业官网岗位</span>{job.status === 'suspected_closed' && <span className="status-warning">疑似下线</span>}</div>
       <div className="card-actions">
         <button className={state?.saved ? 'saved' : ''} aria-label={state?.saved ? '取消收藏' : '收藏岗位'} onClick={(event) => { event.stopPropagation(); onSave() }}><Bookmark size={17} fill={state?.saved ? 'currentColor' : 'none'} /></button>
-        <button className="text-button" onClick={(event) => { event.stopPropagation(); onPipeline() }}><BriefcaseBusiness size={16} />{state?.applicationStatus ? '更新进度' : '加入投递'}</button>
+        <button className={state?.applicationStatus ? 'text-button remove-action' : 'text-button'} onClick={(event) => { event.stopPropagation(); if (state?.applicationStatus) onRemove(); else onPipeline() }}><BriefcaseBusiness size={16} />{state?.applicationStatus ? '撤销投递' : '加入投递'}</button>
         <button className="round-arrow" aria-label="查看岗位详情"><ChevronRight size={18} /></button>
       </div>
     </footer>

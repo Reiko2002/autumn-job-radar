@@ -1,7 +1,7 @@
 version: 1
 sources:
   - key: manual-official-jobs
-    name: 飞书秋招表·国内企业官网岗位
+    name: 国内企业官网岗位
     type: manual_csv
     enabled: true
     path: data/manual_jobs.csv
