@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T06:16:00.003063+00:00",
+  "generatedAt": "2026-09-02T05:52:10.442186+00:00",
   "stats": {
     "total": 72,
     "active": 72,
@@ -43,7 +43,7 @@
       "applyUrl": "https://campus.jd.com/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "45aae915a9810bc11f55b3644876950999da3bcea3b9aef51023fdd29cc9da08"
     },
@@ -78,7 +78,7 @@
       "applyUrl": "https://careers.pddglobalhr.com/campus/grad/detail?positionId=a8313a59-90d2-4769-be6e-d39ea37ef3de",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "e93737403329f7fca1071777edbf6ccef82c03a2dc4f78d594a283989ac6f9f8"
     },
@@ -118,7 +118,7 @@
       "applyUrl": "https://campus-talent.alibaba.com/campus/position/199907700034",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "34b492bf436e269bc7c7c7c43cffbca53f39d2a532019b3cce1f1cad729b5e90"
     },
@@ -155,7 +155,7 @@
       "applyUrl": "https://campus.jd.com/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "4ea45f6dc413edfcce6c732a19d52e7566c7e0a615d99f1d8f704334f5e5b643"
     },
@@ -194,7 +194,7 @@
       "applyUrl": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697309845&highlightType=campus",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "2dc8734e34454821df6b90c63743403ac67a7ae48a65446300b60cb9e5b165c1"
     },
@@ -231,7 +231,7 @@
       "applyUrl": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697314739&highlightType=campus",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7aca622bfcbc9472dc47030cfbfc0dce5420a0ea242cb3c47e02290e6f6bd14d"
     },
@@ -271,7 +271,7 @@
       "applyUrl": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697324893&highlightType=campus",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "bae83eab0e32b641b861b028483218441a06a43c5a356a02123108f85dee419f"
     },
@@ -310,7 +310,7 @@
       "applyUrl": "https://talent.antgroup.com/campus-position?positionId=260721011010330&tid=2180659f17868798049537386e2f49",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b8cc225cc6fe14ef3562faefea4c1ece047fa6890e9c9bcdc8f7b328930ce624"
     },
@@ -347,7 +347,7 @@
       "applyUrl": "https://join.tencentmusic.com/campus/post-details?id=13086",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "0a55e2e7f25c2870f087f1c5159a4b6c62d3a80538db87c14705b9947c98b678"
     },
@@ -386,7 +386,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/423c0fa3-a0f3-4def-a882-7466d3685b79",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7846f207383b75100fd99572964b85995c95b845cb55744eae2630144df1732c"
     },
@@ -425,7 +425,7 @@
       "applyUrl": "https://campus.kuaishou.cn/recruit/campus/e/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "3bb0904b50d65defbfce0d13f5ef835dd44aa3bde9bddc5373dc1b7aa2a4a226"
     },
@@ -464,7 +464,7 @@
       "applyUrl": "https://campus.kuaishou.cn/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "c4d1c21d2fb94dd5f99320ca27f735be22cf5318909c251dfff8b1df632ad235"
     },
@@ -501,7 +501,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/a20dfb76-4c9d-4814-bd74-7561616e2773",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "31636554c8f715d4102ac0c7dbb1ab442d51c48c525e17e84e27daa1015fed83"
     },
@@ -538,7 +538,7 @@
       "applyUrl": "https://join.qq.com/post_detail.html?postid=1282707374754604032",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b3dd60839a0dd68e7c39803b52db9e2cb6e18f44b385f36ad7677757bd12ddac"
     },
@@ -577,7 +577,7 @@
       "applyUrl": "https://join.qq.com/post_detail.html?postid=1283126456553382912",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "fa9998306ffe832866d8efa4fd8f8078380abd70ef06e2161b35f74d36e15dc3"
     },
@@ -612,7 +612,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/8af5fc29-815e-44d3-9918-af2f414934ae",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "f57f5b7b232cb5ab35f9ca8b117a427a4c1d1a2f3c58f2ffff3227ee5d27a5e3"
     },
@@ -650,7 +650,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/b1537e9d-99b2-4f5c-a546-559d5c5a8718",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b45edf63c62bf6820931e3cbb3c191878caee2424a5b8b01cddb7c8ffddf9665"
     },
@@ -689,7 +689,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/6a3ec057-b632-4c99-b075-dce2dbeccdd1",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "662e0740e459a6ab0babc1562bde4d41a237ec2caedf2f010f3a263e1c1694ae"
     },
@@ -726,7 +726,7 @@
       "applyUrl": "https://talent.baidu.com/jobs/detail/GRADUATE/ebb64b78-0b20-4e6f-8866-e494eb0aee6d",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "8c41f855ae3662a677b498179d895e35b0923beb99ccabc38641f85effb91f9c"
     },
@@ -763,7 +763,7 @@
       "applyUrl": "https://campus.kuaishou.cn/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "8fddf0be1568fc908e1beafc2309c0c8800ec65455fe3482fdbb14fd9287091f"
     },
@@ -802,7 +802,7 @@
       "applyUrl": "https://campus.kuaishou.cn/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "c1eb24c4d0e6feba5d43e3c7319ad3c940f66941fe73b09ba941d933e8ab336e"
     },
@@ -840,7 +840,7 @@
       "applyUrl": "https://intsig.zhiye.com/campus/jobs",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b7328f8a893f878645e4e065c5a1da25cb471f7870ddf5ae01fa310e3738cfde"
     },
@@ -877,7 +877,7 @@
       "applyUrl": "https://app.mokahr.com/campus-recruitment/huolalahr/98660",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "909b3f49af49c6c7fec2e40a7cf153afd62d90366807852d0b546b438c22c0d2"
     },
@@ -915,7 +915,7 @@
       "applyUrl": "https://jobs.bilibili.com/campus/positions/29645?token=f672d580-2e82-4ec5-aa6f-b69839c9245b",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "8d589ad7f4d44489e3b6a62a545e63946a8cc5b1627def089e4c53f536442bd3"
     },
@@ -954,7 +954,7 @@
       "applyUrl": "https://poizon.jobs.feishu.cn/578078/position/7671158613353171241/detail?share_token=MzsxNzg2MzI1MjI5ODE4Ozc0Nzc1NTczMTI0NDczODM4MjA7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "763b4a0001ea90b15eed62ee1363e6c94bcd9bc188152e46781711e9979f7b9e"
     },
@@ -991,7 +991,7 @@
       "applyUrl": "https://iflytek.zhiye.com/campus/detail?jobAdId=0d8cc597-20ae-4077-9ea4-aac1318f1f62",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "ebed2b380143a402eabbca7c7953131849a6c9c0a4cdcb6938c9f871ffa38ff9"
     },
@@ -1028,7 +1028,7 @@
       "applyUrl": "https://jobs.bilibili.com/campus/positions/29753?token=f672d580-2e82-4ec5-aa6f-b69839c9245b",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "489f7281dc733f4ec1f2a77de1066dfa2b609a1870d5a4c8c9e8b5c883b19310"
     },
@@ -1067,7 +1067,7 @@
       "applyUrl": "https://campus.didiglobal.com/campus_apply/didiglobal/96064",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "f84b9a5c9ff8556b3f9842a9d11b96521823ec37c36454692b738580951098de"
     },
@@ -1106,7 +1106,7 @@
       "applyUrl": "https://campus.163.com/app/detail/index?id=4813&projectId=103",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "f14a02c399378790128952732421601c03dc52095f8cd173498e8ddd92ce893a"
     },
@@ -1146,7 +1146,7 @@
       "applyUrl": "https://hf7l9aiqzx.jobs.feishu.cn/referral/campus/position/7670081156801562916/detail?token=MzsxNzg1OTk2OTU1MjIyOzc0NTcxMDAxNTI3MTUwODM3OTU7MDsx",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "830e183557f1b473af3923bfbbfe24060baf4a6fb65c9045ea67b6f12a81b53f"
     },
@@ -1185,7 +1185,7 @@
       "applyUrl": "https://transsion.zhiye.com/4/detail?jobAdId=54f74172-7cea-4672-92b5-437c40589888",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "e063bbae94c63fa9def6b2bf7570d3c2d94a14ecdd9287e37f30b82c28173eee"
     },
@@ -1224,7 +1224,7 @@
       "applyUrl": "https://xiaomi.jobs.f.mioffice.cn/referral/campus/position/7670923173756733737/detail?token=NTsxNzgwNjQ1NTAwMzcyOzcxMjMwMzE3MDU4MDc4MTQ3NjU7NzY0Nzc3Nzg0NzE2ODc4MDU1MDsxLzE",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "ad805856a645b84005b7b114f796f68c0b5dea4eb1f428f6db86e3da4d46bad1"
     },
@@ -1263,7 +1263,7 @@
       "applyUrl": "https://campus.duxiaoman.com/051736/position/7673425819956005162/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "55cb6ebea75746015d5bed7d7beb77fedeb7977ae0b324846cd2a96d52f19e54"
     },
@@ -1300,7 +1300,7 @@
       "applyUrl": "https://iflytek.zhiye.com/5/detail?jobAdId=6d1b9bbb-6adc-41a7-89f8-fe13073c90e1",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "df5af4c78255bb0d64b5d4ef5999b105c6ae4d1cac723420570e54c2bcfa9323"
     },
@@ -1339,7 +1339,7 @@
       "applyUrl": "https://job.ctrip.com/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b3097d6c6b7508ab3f170ade7c812a3f114d7bcfc4c1ac634c1e146dac280b9c"
     },
@@ -1376,7 +1376,7 @@
       "applyUrl": "https://intsig.zhiye.com/campus/detail?jobAdId=91b04700-3fdc-4a35-a2ac-0741aa15419e",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "33c130eb589a988f50e802e2458ee245daa5f8976e552ab52a35e987c551543f"
     },
@@ -1415,7 +1415,7 @@
       "applyUrl": "https://intsig.zhiye.com/campus/detail?jobAdId=b6756a8c-58c5-40ec-8dee-5896a38409f2",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "498b168bef6c0272d9a17699e6603cd1f7d6fbb7b978ca948fdecc240b67d155"
     },
@@ -1452,7 +1452,7 @@
       "applyUrl": "https://campus.163.com/app/detail/index?id=4791&projectId=103",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "bee28f6d0a4f5da2bc9f5beee97f36ba00313348cb2fa977ae85b081c811b6bf"
     },
@@ -1492,7 +1492,7 @@
       "applyUrl": "https://app.mokahr.com/social-recruitment/high-flyer/140576",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "4b71cddbc24d0e0b4c6c84ceff9c789802eb85e83ca7b4c931eafb037bfd845a"
     },
@@ -1532,7 +1532,7 @@
       "applyUrl": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7637046296842504498/detail?share_token=MzsxNzgyODIzMzQ5MjkyOzc0OTgyNjc2Nzk2Mjg3NTcyOTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "6576463def30ae6bdaa437a518b7af84b1bea037358081d6b921345199d49332"
     },
@@ -1571,7 +1571,7 @@
       "applyUrl": "https://hr-jobs.sensetime.com/edu/position/7659326668481235242/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "6da9ecb4ee4c48e3385d761a7eefd0030d9392abc4f6f7c10d275f48f163c376"
     },
@@ -1611,7 +1611,7 @@
       "applyUrl": "https://hr-jobs.sensetime.com/edu/position/7659326521953962290/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "022054807cd0b296c22542c6c5c107a38f7d53f23c5a37eccd6089fa80c15e2f"
     },
@@ -1649,7 +1649,7 @@
       "applyUrl": "https://nio.jobs.feishu.cn/campus/position/7661853821363112211/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "4a72decf4ebc5c41685494c128748291d4992a9a081d91516761ca787bf9784e"
     },
@@ -1686,7 +1686,7 @@
       "applyUrl": "https://campus.xunlei.com/campus-recruitment/xunlei/26600/",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "30e95635fa80520501b430e3f9074a690fdbb489bc0e32190a9e28c43bdffc96"
     },
@@ -1724,7 +1724,7 @@
       "applyUrl": "https://wecruit.hotjob.cn/SU64893571bef57c16d356b99e/pb/posDetail.html?postId=6a8ed4ef4315481304d6bf14&postType=campus",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b2ff927c56b76e412cc1346b4d745c47fdb763589df1a2fad478421f5a067fa2"
     },
@@ -1763,7 +1763,7 @@
       "applyUrl": "https://web.predsmp.voyah.com.cn/free.html",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7767e66f6dc5632080752eeba67c583de82af53b8122da9924a68096a1797068"
     },
@@ -1800,7 +1800,7 @@
       "applyUrl": "https://xiaopeng.jobs.feishu.cn/398875/position/7658239791137343794/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "cac4c4d4b01b213c0a9be60601de9235b2cc43e01ddae470ec26cefee73f7e86"
     },
@@ -1837,7 +1837,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664508546910865706/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "42634ddd43584fbdbe5e0b77a75c1af2e2bb0fa0863c0d1606810c734c5edde5"
     },
@@ -1875,7 +1875,7 @@
       "applyUrl": "https://mp.weixin.qq.com/s/cPg4WJidXJfaGi51lQbIqA",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7592727721302763a76fa123efdd8928ee5d274db4bfcc4db50e6cbc87541a61"
     },
@@ -1913,7 +1913,7 @@
       "applyUrl": "https://agirobot.jobs.feishu.cn/campusrecruitment/position/7662265138188060978/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "6eb96cbb846ed8e9939a95571f1f9f3f12c85d8ddfaf1b8b45593c8c5d32d262"
     },
@@ -1952,7 +1952,7 @@
       "applyUrl": "https://hr-campus.vivo.com/campus/detail?jobAdId=9a693b88-2542-481e-b896-0506e96f4191",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7bf53150045f236d78522cbb38a0eeea2ebbf83aed6f58186127b793587ac34c"
     },
@@ -1989,7 +1989,7 @@
       "applyUrl": "https://app.mokahr.com/campus_apply/aftershokzhr/36940?recommendCode=DSZzfkwd",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "27ad195d503c986c8741b0cb68a024706f1cae0c71aed3209b17c979fc5f33cb"
     },
@@ -2027,7 +2027,7 @@
       "applyUrl": "https://positec.hotjob.cn/SU64ae46c02f9d24760adac777/pb/posDetail.html?postId=6a476b989d291a0d3581c98c&postType=campus",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "9da3d7fb3015fe59f49dc32247869cb1aa1b3269bc00f4b74c4bd627a4c9d3b8"
     },
@@ -2064,7 +2064,7 @@
       "applyUrl": "http://nio.jobs.feishu.cn/campus/position/7661853821363423507/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "2ae9dc6f62e7bb04e22349657262e0ab66900bf725644e7638bde2dde6e8e26c"
     },
@@ -2103,7 +2103,7 @@
       "applyUrl": "https://nio.jobs.feishu.cn/campus/position/7661853864974944531/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "7fe59ee38d6d4b448f8726549b4bd8fe8dd0dc1eba8924006535cacae65b3431"
     },
@@ -2140,7 +2140,7 @@
       "applyUrl": "https://app.mokahr.com/campus-recruitment/deeproute/145894",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "53af142862c31ece90cd21d7689a1bf4fa866693a56fbbf4c0d4b2798bce0f21"
     },
@@ -2179,7 +2179,7 @@
       "applyUrl": "https://wecruit.hotjob.cn/SU64e7157a1eb80519a8e4efcf/mc/position/campus?acotycoCode=kwivtp&postIdsStr=248403%2C248404%2C248405%2C248406%2C248407%2C248408%2C248409%2C248410%2C235575&recruitType=1&isLimitShowPostScope=1",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "3907a5edc41c723928b168d62b9cbefa18ed98b158a8cf17ce78d3145fde434f"
     },
@@ -2216,7 +2216,7 @@
       "applyUrl": "https://app.mokahr.com/campus_apply/aftershokzhr/36940?recommendCode=DSZzfkwd",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "b3d9f270f95886099bbb5146a65ba6c653cdd36cc89d52fff72f9d34b0dde36e"
     },
@@ -2255,7 +2255,7 @@
       "applyUrl": "https://careers.oppo.com/university/oppo/campus/post/1839?recruitType=Graduate",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "dff46465285992112382ce6b69ffd23e0c4eabf6308528fc5263dc4ad30ead8c"
     },
@@ -2292,7 +2292,7 @@
       "applyUrl": "https://careers.oppo.com/university/oppo/campus/post/1860?recruitType=Graduate",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "c29ee9a0bffff5fa50744fa38d13feac91789c2c1c53d3ac6cd982c4fccfd550"
     },
@@ -2329,7 +2329,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664525516876597542/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "cd9f90afb0363cb8b8c60505fc0d93c57fa23393bf9f77d94e100e9aa43ba326"
     },
@@ -2367,7 +2367,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664583129202133291/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "faf7ec70b657ec83d587b985d22112b891a43ede840be9a182b30260feb5589f"
     },
@@ -2405,7 +2405,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664584509564668211/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "09e320d7afe949e4475558ebf85cb54e5ae45d5d2168f5a6dbac5e26c9dc372e"
     },
@@ -2445,7 +2445,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664585038919764260/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "557f5d037887d907a3444039464f85482cad2041cdfd8471094db507bd6013ee"
     },
@@ -2485,7 +2485,7 @@
       "applyUrl": "https://arashivision.jobs.feishu.cn/campus/position/7664585052421196041/detail?share_token=MzsxNzg0NzEwNjQ3Mjg2OzczOTQ4MTg4MTM1NDI1NDk3OTk7MDsxLzI",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "eea11966ff5041688c59096ec2e1e7bdb011fc071c6e89e526099615df56bb6e"
     },
@@ -2524,7 +2524,7 @@
       "applyUrl": "https://talent.lenovo.com.cn/position/detail?id=2362",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "1a97a0929e18ac6c2e3995e152975e281f4aa455346455f71814cd3bb20c7ceb"
     },
@@ -2563,7 +2563,7 @@
       "applyUrl": "https://campus.game.163.com/app/detail/index?id=4711&projectId=102",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "0bb51ac80439dc1f7fbecebea2521308708dfd0ea464ee48bedae3d55876e8e6"
     },
@@ -2602,7 +2602,7 @@
       "applyUrl": "https://jobs.mihoyo.com/?sharePageId=142752&recommendationCode=DZY6B&isRecommendation=true",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "a2c425845a0d2b9ab67645c51e8939fa6f8c9e9347286c669660d35c2df5a8f1"
     },
@@ -2637,7 +2637,7 @@
       "applyUrl": "https://lilithgames.jobs.feishu.cn/campus/position/7661942493676357930/detail",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "c5d1d36fa6dea9d558173191a128f6d6fe2aa6a7abd65fdf487b567eab9fcff1"
     },
@@ -2676,7 +2676,7 @@
       "applyUrl": "https://app.mokahr.com/campus-recruitment/zuoyebang/144908?locale=zh-CN",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "fb22d41f533a674e4768634b1cba1f38acc239a4d65b22e0ba2265f5d7b2f517"
     },
@@ -2713,7 +2713,7 @@
       "applyUrl": "https://job.chinatelecom.com.cn/wt/TELE/web/index",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "a4aad727163e35cff9e80a2472565796955d989749c4377c12d3ddfe598ad609"
     },
@@ -2752,7 +2752,7 @@
       "applyUrl": "https://job.chinatelecom.com.cn/wt/TELE/web/index",
       "status": "active",
       "firstSeenAt": "2026-08-29T09:54:53.959572+00:00",
-      "lastSeenAt": "2026-09-01T06:16:00.003063+00:00",
+      "lastSeenAt": "2026-09-02T05:52:10.442186+00:00",
       "missedSyncCount": 0,
       "contentHash": "23e276bfc0f2a3b7915625ebe0c0d84f517d512d0a7c7a5014db2054542c5229"
     }
