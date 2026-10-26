@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-25T06:11:16.623629+00:00",
-  "finishedAt": "2026-10-25T06:11:16.647359+00:00",
+  "startedAt": "2026-10-26T06:18:35.653279+00:00",
+  "finishedAt": "2026-10-26T06:18:35.671755+00:00",
   "status": "success",
-  "durationMs": 23,
+  "durationMs": 18,
   "summary": {
     "total": 72,
     "active": 72,
@@ -17,7 +17,7 @@
       "key": "manual-official-jobs",
       "status": "success",
       "fetched": 73,
-      "durationMs": 1,
+      "durationMs": 0,
       "error": null
     }
   ],
