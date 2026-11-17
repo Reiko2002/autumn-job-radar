@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-16T08:01:34.995746+00:00",
-  "finishedAt": "2026-11-16T08:01:35.020796+00:00",
+  "startedAt": "2026-11-17T09:15:46.070783+00:00",
+  "finishedAt": "2026-11-17T09:15:46.085885+00:00",
   "status": "success",
-  "durationMs": 25,
+  "durationMs": 15,
   "summary": {
     "total": 72,
     "active": 72,
